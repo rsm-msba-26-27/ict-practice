@@ -23,6 +23,7 @@ cd ict-practice
 | `hunt/` | **The Secret Taco Stand** — a terminal treasure hunt (start at `hunt/START.txt`) | Practice 01, part C |
 | `messy-project/` + `MAKEOVER.md` | A disaster of a project folder for you to reorganize | Practice 01, part D |
 | `check-structure.sh` | Grades your makeover | Practice 01, part D |
+| `duckdb/` | Taco-truck data for a DuckDB SQL exercise | Practice 01, part E |
 | `paths-rescue/` | A script + Quarto report that only run from the right folder | Practice 02, part B |
 | `merge-conflict/` | Create and resolve a merge conflict, on purpose | Practice 02, part C |
 

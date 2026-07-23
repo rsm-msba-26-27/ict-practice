@@ -2,3 +2,5 @@ report.html
 report_files/
 __pycache__/
 *.quarto_ipynb
+*.duckdb
+*.duckdb.wal
