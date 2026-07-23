@@ -1,0 +1,5 @@
+---
+title: Quarterly taco report
+---
+
+Draft. Rename me to something sane, like report.qmd.

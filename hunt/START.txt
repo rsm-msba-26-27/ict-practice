@@ -1,0 +1,16 @@
+================  THE SECRET TACO STAND — a terminal treasure hunt  ============
+
+Somewhere in San Diego there is a taco stand so good its location is a secret.
+Six words unlock it. Each clue file gives you ONE WORD and points to the next
+clue. Write the words down as you go.
+
+Rules of the road:
+  * pwd  tells you where you are
+  * ls   shows what is here     (ls -a shows EVERYTHING)
+  * cd   moves you              (cd .. goes UP one level)
+  * cat  reads a clue file
+
+Your first clue is inside the folder named `trailhead`. Go there and read
+`clue-1.txt`.
+
+Stuck at any point? Run `pwd` first, then `ls`, and re-read the clue.

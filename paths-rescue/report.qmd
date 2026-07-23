@@ -1,0 +1,50 @@
+---
+title: "San Diego Taco Awards"
+format: html
+---
+
+This report reads `data/menus.csv` with a **relative path**. Quarto runs it
+with the working directory set to the folder the `.qmd` file lives in — so
+rendering works no matter where you call it from:
+
+```bash
+quarto render report.qmd
+```
+
+```{python}
+import csv
+from pathlib import Path
+
+with open(Path("data") / "menus.csv") as f:
+    rows = list(csv.DictReader(f))
+for r in rows:
+    r["price"] = float(r["price"])
+    r["rating"] = float(r["rating"])
+
+print(f"{len(rows)} menu items from {len({r['shop'] for r in rows})} shops")
+```
+
+## Top 10 tacos
+
+```{python}
+top = sorted(rows, key=lambda r: -r["rating"])[:10]
+print(f"{'shop':<20} {'neighborhood':<14} {'taco':<12} {'price':>6} {'rating':>6}")
+print("-" * 62)
+for r in top:
+    print(f"{r['shop']:<20} {r['neighborhood']:<14} {r['taco']:<12} "
+          f"{r['price']:>6.2f} {r['rating']:>6.1f}")
+```
+
+## Average rating by neighborhood
+
+```{python}
+hoods = {}
+for r in rows:
+    hoods.setdefault(r["neighborhood"], []).append(r["rating"])
+for hood, ratings in sorted(hoods.items(), key=lambda kv: -sum(kv[1]) / len(kv[1])):
+    avg = sum(ratings) / len(ratings)
+    print(f"{hood:<14} {'*' * round(avg * 4)}  {avg:.2f}")
+```
+
+After rendering, open `report.html` in VS Code (right-click -> Open Preview, or
+just click it) — this is how a script becomes something you can share.

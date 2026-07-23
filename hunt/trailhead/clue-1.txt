@@ -1,0 +1,10 @@
+WORD 1 of 6: "I"
+
+Nice — you can cd and cat. Now the hard truth: some folders HIDE.
+
+The next clue is in a hidden folder right here inside `trailhead`.
+Plain `ls` will not show it. Try:
+
+    ls -a
+
+Anything starting with a dot is hidden. cd into it and read clue-2.txt.

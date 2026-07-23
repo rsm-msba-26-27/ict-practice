@@ -1,0 +1,13 @@
+WORD 4 of 6: "SECRET"
+
+Time to search instead of wander. Go to the pantry (it is inside `hunt`,
+two levels up from this jar):
+
+    cd ../../pantry
+
+The pantry holds 24 receipts. Exactly ONE of them mentions `guacamole`,
+and that receipt is your next clue. Do NOT read them one by one — search:
+
+    grep -l guacamole *.txt
+
+`grep -l` prints just the file name that matches. cat that file.

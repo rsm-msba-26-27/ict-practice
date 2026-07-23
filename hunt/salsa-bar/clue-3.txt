@@ -1,0 +1,9 @@
+WORD 3 of 6: "THE"
+
+The salsa bar has one very special jar. The next clue is inside the folder:
+
+    extra spicy salsa verde (level 5)
+
+Try `cd extra` and then press the TAB key — the shell completes the rest AND
+takes care of the spaces for you. (Typing it by hand? You would need quotes:
+`cd "extra spicy salsa verde (level 5)"`.) Read clue-4.txt inside.

@@ -1,0 +1,13 @@
+WORD 2 of 6: "FOUND"
+
+You found the hidden passage. Check where you are:
+
+    pwd
+
+You are deep in the tree now. The next clue is in a folder called `salsa-bar`
+that sits right inside `hunt` — that is TWO levels up from here.
+One command, no retracing:
+
+    cd ../../salsa-bar
+
+(`..` is the folder above you; `../..` is two floors up.) Then read clue-3.txt.

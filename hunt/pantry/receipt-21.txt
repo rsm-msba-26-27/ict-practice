@@ -1,0 +1,20 @@
+RECEIPT #21 — Mercado San Diego
+
+  4x cabbage
+  6x queso oaxaca
+  5x crema
+
+  3x guacamole (large)
+
+----------------------------------------------
+
+WORD 5 of 6: "TACO"
+
+One receipt in 24 — that is why grep exists.
+
+The final clue waits in the freezer. From the pantry:
+
+    cd ../kitchen/freezer
+
+Read clue-6.txt there. Almost done.
+

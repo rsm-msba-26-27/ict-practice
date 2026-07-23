@@ -1,0 +1,14 @@
+================================  FINISH  ======================================
+
+Say the six words in order. That is the location password.
+
+To claim your prize:
+  1. Write the full phrase down.
+  2. Submit it where your instructor tells you (or show a TA).
+
+One last trick — look at the whole map you just walked, in one command:
+
+    lt
+
+(`lt` shows a 2-level tree; `lt -L 3` goes deeper.) Every wrong turn you made
+is a folder you now know how to escape. That was the point.

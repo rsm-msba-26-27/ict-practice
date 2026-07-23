@@ -1,0 +1,10 @@
+WORD 6 of 6: "STAND"
+
+Cold in here. You have all six words — assemble them IN ORDER (1 to 6).
+
+Two ways back to the `hunt` folder — pick either:
+
+    z hunt          (jump to any folder you have visited before)
+    cd ../..        (the long way home)
+
+Then read FINISH.txt.
