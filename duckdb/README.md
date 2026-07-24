@@ -17,7 +17,7 @@ duckdb tacos.duckdb -c "CREATE TABLE trucks AS SELECT * FROM read_csv_auto('truc
 # 2. ask a question with SQL
 duckdb tacos.duckdb -c "SELECT item, SUM(quantity) AS sold FROM sales GROUP BY item ORDER BY sold DESC;"
 
-# 3. get the same answers in base Python (dictionaries + loops, no database)
+# 3. get the same answers BOTH ways — SQL and base Python — printed to compare
 python explore.py
 ```
 
