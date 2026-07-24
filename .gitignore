@@ -4,3 +4,4 @@ __pycache__/
 *.quarto_ipynb
 *.duckdb
 *.duckdb.wal
+.generators/
